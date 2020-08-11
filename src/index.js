@@ -1,5 +1,12 @@
 import { ToyReact } from './ToyReact'
 
-class MyComponet {}
 
-let a = <MyComponet name="test" />
+let a = <div name="test">
+  <span>hello</span>
+  <span>world</span>
+  <span></span>
+</div>
+
+
+console.log(a)
+document.body.appendChild(a)
