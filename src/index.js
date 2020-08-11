@@ -1,10 +1,5 @@
-console.log('..111....')
+import { ToyReact } from './ToyReact'
 
-let Test = {
-  createElement() {
-    debugger
-  }
-}
+class MyComponet {}
 
-
-Test.createElement()
+let a = <MyComponet name="test" />

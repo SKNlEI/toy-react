@@ -1,5 +1,5 @@
 {
-  "name": "toy-racrt",
+  "name": "toy-react",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,7 +15,10 @@
     "@babel/preset-env": "^7.11.0",
     "babel": "^6.23.0",
     "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.3.0",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
